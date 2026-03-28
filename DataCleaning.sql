@@ -22,7 +22,7 @@ select * from CleanOrders  ----Here im checking if the table is successfully cre
 --______________________________________________________________________________________________________________________--
 
 
----Data quality report (from the  RAW data)
+---Data quality report(from the  RAW data)
 SELECT 
     count(*) as TotalRows,
     Count(case when try_cast(OrderDate as date) IS NULL then 1 end) AS BadDates,
@@ -42,3 +42,6 @@ SELECT
 FROM CleanOrders;
 
 /*It counts all rows in CleanOrders and shows how many have missing Quantity, TotalAmount, or OrderDate values.*/
+
+
+
