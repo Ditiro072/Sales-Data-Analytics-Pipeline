@@ -1,0 +1,5 @@
+2026-03-28 19:44:06,025 - INFO - ETL process started
+2026-03-28 19:44:06,152 - INFO - Connected to database
+2026-03-28 19:45:09,658 - INFO - Extracted rows: 120000
+2026-03-28 19:45:09,800 - INFO - Clean rows: 83793
+2026-03-28 19:45:42,624 - INFO - ETL SUCCESS
