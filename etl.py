@@ -16,10 +16,10 @@ def connect_db():
         f"DRIVER={{{DB_CONFIG['driver']}}};"
         f"SERVER={DB_CONFIG['server']};"
         f"DATABASE={DB_CONFIG['database']};"
-        f"Trusted_Connection={DB_CONFIG['trusted_connection']};"
+        f"UID={DB_CONFIG['uid']};"
+        f"PWD={DB_CONFIG['pwd']};"
         "TrustServerCertificate=yes;"
     )
-
 # for Extraction
 def extract_data(conn):
     df = pd.read_sql("SELECT * FROM Orders", conn)
