@@ -1,6 +1,7 @@
 DB_CONFIG = {
     "driver": "ODBC Driver 18 for SQL Server",
-    "server": "pc",
+    "server": "host.docker.internal,1433",
     "database": "BigAnalyticsDB",
-    "trusted_connection": "yes"
+    "uid": "etl_user",
+    "pwd": "StrongPass072!"
 }
