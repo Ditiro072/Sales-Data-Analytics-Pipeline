@@ -1,0 +1,8 @@
+SELECT TOP (1000) [OrderID]
+      ,[CustomerID]
+      ,[ProductID]
+      ,[OrderDate]
+      ,[Quantity]
+      ,[TotalAmount]
+      ,[Status]
+  FROM [BigAnalyticsDB].[dbo].[CleanOrders]

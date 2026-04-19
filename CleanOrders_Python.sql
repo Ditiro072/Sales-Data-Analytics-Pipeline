@@ -1,0 +1,8 @@
+SELECT [OrderID]
+      ,[CustomerID]
+      ,[ProductID]
+      ,[OrderDate]
+      ,[Quantity]
+      ,[TotalAmount]
+      ,[Status]
+  FROM [BigAnalyticsDB].[dbo].[CleanOrders]
